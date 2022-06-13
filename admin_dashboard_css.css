@@ -1,0 +1,53 @@
+.content {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+  background-color: #646464;
+  z-index: 9999;
+  border: 0;
+
+  font-size: 15px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+.content li {
+  margin-top: 1.5%;
+}
+
+button {
+  margin-top: 0%;
+}
+
+button {
+  padding: 0.8%;
+  width: 12%;
+  background-color: white;
+  text-align: center;
+  border-color: #646464;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+}
+
+button:hover {
+  color: white;
+  background-color: #646464;
+  text-align: center;
+  border-color: #646464;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>products page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" src="style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      /* Remove the navbar's default rounded borders and increase the bottom margin */
+      .navbar {
+        margin-bottom: 100px;
+        border-radius: 10;
+        height: 50px;
+      }
+
+      
+      .h3 {
+        text-align: center;
+        text-decoration: solid;
+      }
+
+      /* Remove the jumbotron's default bottom margin */
+      .jumbotron {
+        padding: 0%;
+        margin-bottom: 0;
+        background-color: aliceblue;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      /* Add a gray background color and some padding to the footer */
+      footer {
+        background-color: #bbb2b2;
+        padding: 25px;
+      }
+
+      .panel-heading {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Bibliomac</h1>
+        <p>The E-book Shop</p>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Bibliomac</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+              >Sort by <span class="caret"></span
+            ></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Ascending order</a></li>
+              <li><a href="#">Descending order</a></li>
+              <li><a href="#">Price-Highest to Lowest</a></li>
+              <li><a href="#">Price-Lowest to highest</a></li>
+            </ul>
+          </li>
+          <li>
+            <input
+              type="search"
+              id="site-search"
+              name="q"
+              aria-label="Search through site content"
+              style="margin-top: 12px"
+            />
+
+            <button>Search</button>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#"
+              ><span class="glyphicon glyphicon-cog"></span>Settings</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="glyphicon glyphicon-log-in"></span> Logout</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <img
+                src="one.jpg"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+
+            <div class="panel-footer">
+              I think Lord of the Flies sums up the entirety of this list pretty
+              neatly: people like to re-read books about childhood and books
+              about violent dystopian nightmares. Lord of the Flies most
+              certainly has both of those things, as well as a blatant critique
+              of British colonialism and toxic masculinity. And if you didn't
+              notice those last two things the first time you read it... I guess
+              it's time to read it again.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-danger">
+            <div class="panel-body">
+              <img
+                src="eight.jpg"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+            <div class="panel-footer">
+              Yeah, it's no secret that 1984 is back on the bestseller's list.
+              It rocketed up 9,500 percent in sales following Trump's
+              inauguration. So I think it's safe to say that this is less of a
+              cuddly, whimsical re-read, and more a politically motivated
+              attempt to make sense of this administration's Orwellian tactics.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-success">
+            <div class="panel-body">
+              <img
+                src="three.jpg"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+            <div class="panel-footer">
+              Of course. Harry Potter is a bestseller several hundred times
+              over, and most true fans have read the series two, or three, or
+              ten times all the way through. Harry Potter and the Sorcerer's
+              Stone is the book that started it all, as well as the least
+              complicated, most adorable book in the series.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <img
+                src="four.jpg"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+            <div class="panel-footer">
+              This is the most recently published book to snag a spot this high
+              on the "Re-read" list, so kudos to The Book Thief. I suppose this
+              is another sort of dystopia novel, except the dystopia in question
+              is not a pig farm or the distant future, but the reality of Nazi
+              Germany. The Book Thief may be narrated by Death, but the
+              narrative itself manages to balance sheer horror with small
+              victories of the everyday.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <img
+                src="five.jpg"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+            <div class="panel-footer">
+              Honestly, I'm glad that someone out there is re-reading The
+              Catcher in the Rye. It just gets so much hate. I'm going to go on
+              the public record and say that I liked Holden Caulfield when I
+              read this book in ninth grade. He was a whiny brat, yes, but so
+              was I, and I imagine that many other angsty teens felt similarly.
+              Clearly, some of those teens are coming back to an old favorite as
+              angsty adults.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-primary">
+            <div class="panel-body">
+              <img
+                src="eleven.jpg"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+            <div class="panel-footer">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+              perspiciatis quidem, explicabo officiis aliquam commodi quibusdam
+              culpa mollitia vitae eius numquam quas quis distinctio nobis vel
+              veritatis aliquid maxime id!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+      <p>Online Store Copyright</p>
+      <form class="form-inline">
+        Get deals:
+        <input
+          type="email"
+          class="form-control"
+          size="50"
+          placeholder="Email Address"
+        />
+        <button type="button" class="btn btn-danger">Sign Up</button>
+      </form>
+    </footer>
+  </body>
+</html>

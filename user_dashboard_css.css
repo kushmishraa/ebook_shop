@@ -1,0 +1,25 @@
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+  background-color: #646464;
+  z-index: 9999;
+  border: 0;
+
+  font-size: 15px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.panel-heading {
+  text-align: center;
+  font-size: larger;
+}
+
+.jumbotron {
+  text-align: center;
+  color: rgb(43, 42, 41);
+  background-color: E5E3C9;
+  font-family: cursive;
+}
